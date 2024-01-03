@@ -1,0 +1,59 @@
+=============================================  Module – 2: Node - Web Development with Node =====================================
+
+
+
+Q1. What is Express.js?
+
+
+ 1 ) Express.js is like a chef for websites:
+
+ => Imagine you want to make a delicious pizza. Express.js is like a chef that helps you organize all the ingredients and instructions to create a tasty website.
+
+2 ) It's a helper for servers:
+
+ => Think of Express.js as a helpful friend for your computer. It makes it easy to create and manage a special place (called a server) where your website can live.
+
+3 ) Handling requests and responses:
+
+ => Express.js is really good at understanding when someone (like a website visitor) asks for something and making sure they get the right stuff back, like a waiter taking your order and bringing your food.
+
+4 ) Routing is like giving directions:
+
+=>Express.js helps you create paths for different things on your website. It's like telling your friends which roads to take to find the playground, the library, or the ice cream shop.
+
+5 ) Middlewares are like helpers:
+
+ => Just like having kitchen helpers, Express.js has something called middlewares. They help with different tasks, like checking if you're allowed to enter certain parts of a website or adding special toppings to your pizza.
+
+6 ) Views for good looks:
+
+ => Express.js helps you make your website look nice by using something called views. It's like choosing the best plate and arrangement for your delicious pizza.
+
+7 )Handling errors gently:
+
+ => Mistakes happen, right? Express.js is like a kind teacher who helps your website apologize and fix things when something goes wrong, so it doesn't break completely.
+
+8 ) Sessions for remembering things:
+
+ => Imagine your favorite game remembering your progress. Express.js helps your website remember things about its visitors, like if they've already played a game or not.
+9 ) Easy to learn and use:
+
+ => Express.js is designed to be simple, like learning a new game. It's a good friend for beginners who want to create cool websites without too much trouble.
+
+10 ) Community of friends:
+
+ =>Many people around the world use Express.js, so it's like being part of a big club. We can ask for help, share our cool creations, and learn from others who also love making awesome websites!
+
+
+
+----------Q2 .Create localhost server using express.
+ => https://github.com/devvasita/Node_js/tree/main/Weather%20App
+
+
+
+----------Q3 . Create basic “Hello world” app using node and express.
+=> https://github.com/devvasita/Node_js/tree/main/Weather%20App
+
+
+----------Q4. Create weather app.
+=> https://github.com/devvasita/Node_js/tree/main/Weather%20App
