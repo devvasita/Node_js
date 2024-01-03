@@ -1,0 +1,12 @@
+table {
+  border-collapse: collapse;
+  background-color: white;
+  border: 1px solid black;
+}
+body {
+  display: grid;
+  background: url("https://images.pexels.com/photos/1107717/pexels-photo-1107717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center;
+  place-items: center;
+}
