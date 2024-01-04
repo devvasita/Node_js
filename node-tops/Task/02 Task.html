@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker Example</title>
+</head>
+
+<body>
+    <label for="colorPicker">Select a Color:</label>
+    <input type="color" id="colorPicker">
+
+    <h2>Selected Color: <span id="selectedColor">#000000</span></h2>
+
+    <button id="data">FetchData</button>
+
+    <div id="container"></div>
+
+    <script>
+
+        // var colorPicker = document.getElementById('colorPicker');
+
+
+        // var selectedColorDisplay = document.getElementById('selectedColor');
+
+
+        // colorPicker.addEventListener('input', function (event) {
+
+        //     var selectedColor = event.target.value;
+
+        //     console.log(selectedColor);
+
+        //     // Update the text and background color to reflect the selected color
+        //     selectedColorDisplay.innerHTML = selectedColor;
+        //     selectedColorDisplay.style.backgroundColor = selectedColor;
+        // });
+
+        document.getElementById("data").addEventListener("click", function () {
+            fetch("https://jsonplaceholder.typicode.com/todos/1").then((res) => {
+                if (!res.ok) {
+                    throw Error("error");
+                }
+                return res.json();
+            })
+                .then(data => {
+
+                    const newData = JSON.stringify(data);
+
+                    return (
+                        document.getElementById("container").innerHTML = newData
+                    );
+                })
+                .catch(error => alert(error));
+        })
+
+
+
+    </script>
+</body>
+
+</html>

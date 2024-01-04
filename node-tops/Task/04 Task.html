@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+    //Flipcart exmple ==> for products 
+   // 
+
+    var evenNumbers = 0;
+    var oddNumbers = 0;
+
+    let sumOfeven = 0;
+    let sumofOdd = 0;
+
+    for (let i = 0; i < 5; i++) {
+        var values = prompt("Enter Five Value");
+
+        if (values % 2 == 0) {
+            evenNumbers += 1;
+            console.log(values);
+            sumOfeven += values;
+        }
+        else {
+            oddNumbers += 1;
+            sumofOdd += values;
+            // console.log(values);
+        }
+    }
+
+    // console.log("Even no :", evenNumbers);
+    // console.log("odd no : ", oddNumbers);
+
+    console.log("sum of even", sumOfeven);
+    console.log("sum of Odd", sumofOdd);
+
+</script>
+
+</html>

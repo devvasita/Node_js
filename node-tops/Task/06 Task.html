@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>For In EXAMPLE</h1>
+
+    <script>
+        // const arr = [15, 25, 35, 45, 50];
+        // let count = 0;
+
+        // for (var item in arr) {
+        //     console.log(arr[item]);
+        //     count++;
+        // }
+
+        // console.log(count);
+
+
+        const arr = [23, 45, 23, 45, 7, 56, 98];
+        const newArr = [];
+        for (let i in arr) {
+
+            // if (arr.includes(arr[i])) {
+            //     newArr.push(arr[i]);
+            // }
+
+
+            console.log(arr[i]);
+            if (!newArr.includes(arr[i])) {
+                newArr.push(arr[i]);
+                // console.log(arr[i]);
+            }
+
+
+        }
+
+
+        console.log(newArr);
+
+
+    </script>
+</body>
+
+</html>

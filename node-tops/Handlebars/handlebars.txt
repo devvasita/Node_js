@@ -1,0 +1,19 @@
+Handlerbars : Handlerbars.js is a templating eninne similar to the ejs module in node.js , but more powerfule and simple to use.
+
+It ensures minimum templating and is a logicless engine that keeps the view and the code separeted. It can be used with express as the hbs moudule.
+
+
+====================================================================================
+# npm i hbs
+
+Set hbs as defualt template engine
+
+====================================================================================
+# app.set ('view engine',hbs)
+
+
+
+Set view path 
+
+#app.set('views',<pathname>)
+

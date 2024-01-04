@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App - {{weatherData.name}}</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+
+    <table border="1px solid" cellpadding="15px">
+      <tr>
+        <td colspan="2" style="text-align: center;">
+          <b>Weather in
+            {{weatherData.name}}</b>
+        </td>
+      </tr>
+      <tr>
+        <td>Temperature:</td>
+        <td> {{weatherData.main.temp}}°C</td>
+      </tr>
+      <tr>
+        <td>Temperature in Fahrenheit::</td>
+        <td> {{temperatureFahrenheit}}°f</td>
+      </tr>
+      <tr>
+        <td>Weather::</td>
+        <td> {{desc}}</td>
+      </tr>
+    </table>
+  </body>
+</html>

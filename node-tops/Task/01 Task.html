@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form id="myForm">
+
+        <input type="number" id="tempId" placeholder="Enter Your Temp">
+        <input type="submit" value="submit">
+
+    </form>
+
+
+    <h1 id="displayData"></h1>
+
+
+    <script>
+
+        document.getElementById("myForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            var temp = document.getElementById("tempId").value;
+
+            console.log(temp >= 0 && temp <= 100);
+
+            if (temp > 100) {
+                document.getElementById("displayData").innerHTML = "steam";
+            }
+            else if (temp >= 0 && temp <= 100) {
+                document.getElementById("displayData").innerHTML = "liquid";
+            }
+            else {
+                document.getElementById("displayData").innerHTML = "cold";
+            }
+
+
+
+
+        })
+
+
+
+
+    </script>
+</body>
+
+</html>
