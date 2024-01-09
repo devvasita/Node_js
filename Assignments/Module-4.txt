@@ -1,0 +1,59 @@
+====================================================  Module – 3 : Node - Node with Mongodb =====================================================
+Q1. What is MongoDB.
+=> MongoDB is a type of database used by computers to store and organize information.
+=> It stores data in a flexible format called BSON, allowing for versatile document structures instead of traditional rows and columns.
+=>MongoDB uses BSON, a binary version of JSON, for efficient data representation and processing.
+=>MongoDB lets you store different types of information together in a single document, making it adaptable to various data types.
+=> MongoDB is designed to handle large amounts of data and can easily scale to meet the growing needs of applications.
+
+
+
+
+Q2. What is difference between mongo DB and SQL
+
+ 1)
+
+ => MongoDB is an open-source database developed by MongoDB, Inc. MongoDB stores data in JSON-like documents that can vary in structure. It is a popular NoSQL database.
+
+=> MySQL is a popular open-source relational database management system (RDBMS) that is developed, distributed and supported by Oracle Corporation.
+
+
+ 2)
+
+=> In MongoDB, each individual records are stored as ‘documents’.
+
+=> => In MySQL, each individual records are stored as ‘rows’ in a table.
+
+
+Q3. Create database for online shopping app.
+ => https://github.com/devvasita/Node_js/tree/main/OnlineShoping
+
+
+
+Q4. Create Require collections for online shopping app and documents.
+i. User
+ii. Product category
+iii. Product
+iv. Order
+v. Review
+
+=>  => https://github.com/devvasita/Node_js/tree/main/OnlineShoping
+
+
+Q5. Write command to show all data from product collections and sort in ascending order.
+
+ => https://github.com/devvasita/Node_js/tree/main/OnlineShoping
+
+
+
+
+Q6. Update product price for particular product.
+
+ => https://github.com/devvasita/Node_js/tree/main/OnlineShoping
+
+
+
+
+Q7. Write command to delete particular document and collection
+
+ => https://github.com/devvasita/Node_js/tree/main/OnlineShoping
